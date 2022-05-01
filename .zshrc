@@ -120,7 +120,8 @@ if [ -f "/Users/zachary.jones/anaconda3/etc/profile.d/mamba.sh" ]; then
 fi
 # <<< conda init <<<
 
-#export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/zachary.jones/anaconda3/bin:$PATH"
+# sometimes you need to append the miniconda/anaconda bin to your path
+#export PATH="$PATH:/Users/zachary.jones/anaconda3/bin"
 export LANG=en_US.UTF-8
 export EDITOR='nano'
 
