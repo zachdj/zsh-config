@@ -120,9 +120,9 @@ if [ -f "/Users/zachary.jones/anaconda3/etc/profile.d/mamba.sh" ]; then
 fi
 # <<< conda init <<<
 
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/zachary.jones/anaconda3/bin:$PATH"
+#export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/zachary.jones/anaconda3/bin:$PATH"
 export LANG=en_US.UTF-8
-export EDITOR='vim'
+export EDITOR='nano'
 
 ## Determines prompt modifier if and when a conda environment is active
 # change "anaconda3" to "miniconda3" if using miniconda
